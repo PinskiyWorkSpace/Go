@@ -1,0 +1,32 @@
+.header {
+    height: 837px; 
+    margin-bottom: 86px;
+}
+
+.header__title {
+    font-weight: 900;
+    font-size: 150px;
+    margin-top: 146px;
+    margin-bottom: 10px;
+}
+.header__wrapper {
+    position: relative;
+}
+
+.header__wrapper:after {
+    content: '';
+    background-image: url('../img/men.png');
+    display: block;
+    position:absolute;
+    height: 762px;
+    width: 675px;
+    top: 75px;
+    right: -60px;
+}
+
+.header__subtitle {
+    font-weight: 400;
+    font-size: 28px;
+    margin-left: 100px;
+}
+
