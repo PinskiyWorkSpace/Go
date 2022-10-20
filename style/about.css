@@ -35,7 +35,7 @@
 
 .about__blockquote p::before {
     content: '';
-    background-image: url('../img/icons/quotes-left.svg');
+    background-image: url('../image/icons/quotes-left.svg');
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -44,7 +44,7 @@
 
 .about__blockquote p::after {
     content: '';
-    background-image: url('../img/icons/quotes-left.svg');
+    background-image: url('../image/icons/quotes-left.svg');
     display: inline-block;
     transform: rotate(180deg);
     width: 20px;
@@ -60,7 +60,7 @@
 }
 
 .about__cite::before {
-    content: url('../img/user.png');
+    content: url('../image/user.png');
     display: block;
     vertical-align: middle;
     width: 80px;

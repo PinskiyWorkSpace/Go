@@ -1,12 +1,48 @@
 .header {
-    height: 837px; 
-    margin-bottom: 86px;
+    min-height: 837px; 
+    margin-bottom: 100px;
+    padding-top: 30px;
+}
+.menu__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.header__logo {
+    cursor: pointer;
+}
+
+.menu__list {
+    display: flex;
+    gap: 40px;
+}
+
+.menu__item {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.menu__btn {
+    padding: 12px 32px;
+    background: #1B1A1B;
+    border: 3px solid #CD06FF;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .header__title {
     font-weight: 900;
     font-size: 150px;
-    margin-top: 146px;
+    
     margin-bottom: 10px;
 }
 .header__wrapper {
@@ -15,18 +51,75 @@
 
 .header__wrapper:after {
     content: '';
-    background-image: url('../img/men.png');
+    background-image: url('../image/men.png');
+    background-size: 675px;
     display: block;
     position:absolute;
     height: 762px;
     width: 675px;
     top: 75px;
     right: -60px;
-}
+} 
 
 .header__subtitle {
     font-weight: 400;
     font-size: 28px;
     margin-left: 100px;
+    margin-bottom: 30px;
 }
 
+.info {
+    display: flex;
+    align-items:flex-end;
+    width: 193px;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+
+.purpure {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 141px;
+    color: #CD06FF;
+    text-align: center;
+}
+.purpure2 {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 106px;
+    font-variant: small-caps;
+    color: #CD06FF;
+}
+
+.info__text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header__btn {
+    background: #6C0287;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 25px 69px;
+    margin-bottom: 154px;
+    border: none;
+}
+
+.arrow {
+    display: block;
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    left:50%;
+    bottom: 100px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 1px solid #fff;
+    z-index: 10;
+}

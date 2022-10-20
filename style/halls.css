@@ -1,5 +1,5 @@
 .halls {
-    padding: 86px 0 50px 0;
+    padding: 50px 0;
 }
 
 .halls__title {
@@ -32,21 +32,21 @@
 }
 
 .halls__80s-vibes {
-    background-image: url('../img/80s_vibes.jpg');
+    background-image: url('../image/80s_vibes.jpg');
     background-size: cover;
 }
 
 .halls__star-wars {
-    background-image: url('../img/star_war.jpg');
+    background-image: url('../image/star_war.jpg');
     background-size: cover;
 }
 
 .halls__wild-west {
-    background-image: url('../img/wild_west.jpg');
+    background-image: url('../image/wild_west.jpg');
     background-size: cover;
 }
 
 .halls__neon-style {
-    background-image: url('../img/neon_style.jpg');
+    background-image: url('../image/neon_style.jpg');
     background-size: cover;
 }

@@ -39,7 +39,7 @@
     content: '';
     height: 46px;
     width: 46px;
-    background-image: url('../img/open-purple.svg');
+    background-image: url('../image/open-purple.svg');
     background-size: contain;
 }
 
@@ -47,6 +47,6 @@
     content: '';
     height: 46px;
     width: 46px;
-    background-image: url('../img/open.svg');
+    background-image: url('../image/open.svg');
     background-size: contain;
 }

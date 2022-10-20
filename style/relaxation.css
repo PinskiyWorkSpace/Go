@@ -1,0 +1,58 @@
+.relaxation {
+    padding-bottom: 50px;
+}
+
+.relaxation__title {
+    width: 980px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: auto;
+    margin-bottom: 41px;
+}
+
+.relaxation__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 20px;
+    
+}
+
+.relaxation__item {
+    width: 380px;
+    height: 228px;
+    padding: 0 40px 20px;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.relaxation__item_vr {
+    background-image: url('../image/vr.jpg')
+}
+
+.relaxation__item_audio {
+    background-image: url('../image/audio.jpg')
+}
+
+.relaxation__item_micro {
+    background-image: url('../image/micro.jpg')
+}
+
+.relaxation__item_game {
+    background-image: url('../image/game.jpg')
+}
+
+.relaxation__item_netflix {
+    background-image: url('../image/netflix.jpg')
+}
+
+.relaxation__item_sony {
+    background-image: url('../image/sony.jpg')
+}
