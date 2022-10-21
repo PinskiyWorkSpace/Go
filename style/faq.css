@@ -41,6 +41,7 @@
     width: 46px;
     background-image: url('../image/open-purple.svg');
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .question__item:nth-child(even)::after  {
@@ -49,4 +50,25 @@
     width: 46px;
     background-image: url('../image/open.svg');
     background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.question__item:nth-child(odd):hover::after {
+    content: url('');
+    background-image: url('../image/open-purple_hover.svg');
+}
+
+.question__item:nth-child(even):hover::after {
+    content: url('');
+    background-image: url('../image/open_hover.svg');
+}
+
+.question__item:nth-child(even):active::after {
+    content: url('');
+    background-image: url('../image/close.svg');
+}
+
+.question__item:nth-child(odd):active::after {
+    content: url('');
+    background-image: url('../image/close_purpure.svg');
 }

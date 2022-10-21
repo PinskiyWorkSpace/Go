@@ -68,6 +68,18 @@
     color: #fff;
 }
 
+.social__link__item:hover {
+    color: #EADEED;
+}
+
+.social__link__item:focus {
+    outline: 1px solid #CD06FF;
+}
+
+.social__link__item:active {
+    color: #CD06FF;
+}
+
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
