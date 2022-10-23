@@ -66,6 +66,7 @@
 
 .social__link__item {
     color: #fff;
+    transition: color 0.5s, outline 0.5s;
 }
 
 .social__link__item:hover {
@@ -73,11 +74,11 @@
 }
 
 .social__link__item:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--main-color);
 }
 
 .social__link__item:active {
-    color: #CD06FF;
+    color: var(--main-color);
 }
 
 .footer__wrapper {

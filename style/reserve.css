@@ -92,18 +92,19 @@ fieldset {
     font-size: 22px;
     line-height: 28px;
     text-transform: uppercase;
-    color: #6C0287;
+    color: var(--second-color);
     margin-left: auto;
     border: 3px solid transparent;
+    transition: background 0.2s, border 0.2s;
 }
 
 .reserve__btn:hover {
     background: #EADEED;
-    border: 3px solid #6C0287;
+    border: 3px solid var(--second-color);
 }
 
 .reserve__btn:focus {
-    border: 3px solid #6C0287;
+    border: 3px solid var(--second-color);
 }
 
 .reserve__btn:active {
@@ -119,7 +120,7 @@ input {
 }
 
 input:focus {
-    border: 2px solid #CD06FF;
+    border: 2px solid var(--main-color);
     outline: none;
 }
 
@@ -152,12 +153,12 @@ input:focus {
 }
 
 .reserve__halls__item:active {
-    background: #6C0287;
+    background: var(--second-color);
     border: 3px solid #FFFFFF;
     color: #FFFFFF;
 }
 
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-    outline: 1px solid #CD06FF;
+    outline: 1px solid var(--main-color);
 }

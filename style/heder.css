@@ -30,23 +30,24 @@
 .menu__btn {
     padding: 12px 32px;
     background: #1B1A1B;
-    border: 3px solid #CD06FF;
+    border: 3px solid var(--main-color);
     border-radius: 10px;
     font-weight: 700;
     font-size: 22px;
     line-height: 30px;
     text-transform: uppercase;
     color: #FFFFFF;
+    transition: background 0.2s, border 0.2s;
 }
 
 .menu__btn:hover {
-    background: #6C0287;
-    border: 3px solid #6C0287;
+    background: var(--second-color);
+    border: 3px solid var(--second-color);
 }
 
 .menu__btn:focus {
-    background: #6C0287;
-    border: 3px solid #6C0287;
+    background: var(--second-color);
+    border: 3px solid var(--second-color);
 }
 
 .menu__btn:active {
@@ -95,7 +96,7 @@
     font-weight: 900;
     font-size: 100px;
     line-height: 141px;
-    color: #CD06FF;
+    color: var(--main-color);
     text-align: center;
 }
 .purpure2 {
@@ -103,7 +104,7 @@
     font-size: 75px;
     line-height: 106px;
     font-variant: small-caps;
-    color: #CD06FF;
+    color: var(--main-color);
 }
 
 .info__text {
@@ -114,7 +115,7 @@
     color: #FFFFFF;
 }
 .header__btn {
-    background: #6C0287;
+    background: var(--second-color);
     border-radius: 10px;
     font-weight: 700;
     font-size: 26px;
@@ -124,6 +125,7 @@
     padding: 25px 69px;
     margin-bottom: 154px;
     border: none;
+    transition: background 0.2s;
 }
 
 .header__btn:hover {
@@ -150,19 +152,20 @@
     border-radius: 50%;
     border: 1px solid #fff;
     z-index: 10;
+    transition: background 0.2s, border 0.2s, color 0.2s;
 }
 
 .arrow:hover {
-    color: #6C0287;
+    color: var(--second-color);
     background: #fff
 }
 
 .arrow:active {
     color: #fff;
-    background: #CD06FF;
-    border: 1px solid #CD06FF;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
 }
 
 .arrow:focus {
-    outline: solid #CD06FF;
+    outline: solid var(--main-color);
 }
