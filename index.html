@@ -32,6 +32,10 @@
           </svg>
         </a>
 
+        <a class="menu__namburger">
+          <span class="namburger__item"></span>
+        </a>
+
         <nav class="header__menu">
           <ul class="menu__list">
             <li class="menu__item"><a href="#">залы</a></li>
@@ -45,37 +49,41 @@
         <button class="menu__btn">Заказать звонок</button>
       </div>
 
-      <div class="header__wrapper">
-        <h1 class="header__title">GAME OVER</h1>
-        <p class="header__subtitle">Новый формат игр и отдыха</p>
-
-        <div class="info">
-          <div>
-            <p class="purpure">4</p>
-            <p class="info__text">Тематических зала</p>
-          </div>
-          <div>
-            <p class="purpure2">new</p>
-            <p class="info__text">Новейшая аппаратура</p>
-          </div>
-        </div>
-
-        <button class="header__btn">Забронировать</button>
-        <a href="#" class="arrow">
-          <svg width="97" height="97" viewbox="0 0 97 97" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201"
-              transform="rotate(-44.9975 34.4255 43.9162)" />
-            <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201"
-              transform="rotate(-134.997 48.5807 58.0737)" />
-          </svg>
-        </a>
-      </div>
     </div>
   </header>
 
   <main>
+    <section class="promo">
+      <div class="container">
+        <div class="promo__wrapper">
+          <h1 class="promo__title">GAME OVER</h1>
+          <p class="promo__subtitle">Новый формат игр и отдыха</p>
 
-    <section class="relaxation">
+          <div class="promo__info">
+            <div>
+              <p class="info_purpure">4</p>
+              <p class="info__text">Тематических зала</p>
+            </div>
+            <div>
+              <p class="info_purpure2">new</p>
+              <p class="info__text">Новейшая аппаратура</p>
+            </div>
+          </div>
+
+          <button class="promo__btn">Забронировать</button>
+          <a href="#relaxation" class="arrow">
+            <svg width="97" height="97" viewbox="0 0 97 97" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201"
+                transform="rotate(-44.9975 34.4255 43.9162)" />
+              <rect x="48.5807" y="58.0737" width="1.82001" height="20.0201"
+                transform="rotate(-134.997 48.5807 58.0737)" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="relaxation" id="relaxation">
       <div class="container">
         <h2 class="relaxation__title">У нас есть все для классного
           отдыха с друзьями!</h2>
@@ -129,7 +137,7 @@
         <form action="https://jsonplaceholder.typicode.com/posts" method="post">
 
           <fieldset class="reserve__halls">
-            <legend class="halls__title">Выберите зал</legend>
+            <legend class="reserve__halls__title">Выберите зал</legend>
 
             <label class="reserve__halls__item">
               <input type="radio" name="hall" value="80's vibes">80's vibes
@@ -177,19 +185,19 @@
               <legend class="item__title"> Настольные игры</legend>
 
               <label>
-                <input  type="checkbox" name="games" value="Jenga">Jenga
+                <input type="checkbox" name="games" value="Jenga">Jenga
               </label>
 
               <label>
-                <input  type="checkbox" name="games" value="Monopoly">Monopoly
+                <input type="checkbox" name="games" value="Monopoly">Monopoly
               </label>
 
               <label>
-                <input  type="checkbox" name="games" value="Munchkin">Манчкин
+                <input type="checkbox" name="games" value="Munchkin">Манчкин
               </label>
 
               <label>
-                <input  type="checkbox" name="games" value="Alias">Alias
+                <input type="checkbox" name="games" value="Alias">Alias
               </label>
 
 
@@ -210,7 +218,7 @@
 
             <div class="booking__wrapper">
 
-              <div class="wrapper__block">
+              <div class="wrapper__block block_one">
 
                 <div class="time">
                   <label>
@@ -227,7 +235,7 @@
               </div>
 
 
-              <div class="wrapper__block">
+              <div class="wrapper__block block_two">
                 <label>
                   Имя*<input type="text" name="name" required>
                 </label>
@@ -237,7 +245,7 @@
               </div>
 
 
-              <div class="wrapper__block">
+              <div class="wrapper__block block_three">
                 <label>
                   Номер телефона*<input type="tel" name="tel" required>
                 </label>
@@ -261,7 +269,7 @@
         <div class="about__wrapper">
           <img class="about__img" src="image/about_img.jpg" alt="Изображение всех возможностей отдыха">
 
-          <div class="wrapp">
+          <div class="about__block_one">
             <p class="about__text">
               Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в
               центральной
@@ -273,14 +281,18 @@
               игровыми
               разработками со всего мира.
             </p>
-
+          </div>
+          <div class="about__block_two">
             <blockquote class="about__blockquote">
-              <p><b>GAME OVER </b> &mdash; <br> это место незабываемых впечатлений </p>
+              <p>GAME OVER &mdash; это место незабываемых впечатлений </p>
             </blockquote>
             <div class="about__wrap">
-              <p class="about__cite">Аркадий Абакшин,<br> создатель игровой <br> территории GAME OVER</p>
+              <p class="about__cite_text">Аркадий Абакшин,<br> создатель игровой <br class="br"> территории GAME OVER
+              </p>
             </div>
           </div>
+
+
 
         </div>
       </div>
@@ -290,36 +302,40 @@
       <div class="container">
         <h2 class="reviews__title">Отзывы посетителей</h2>
 
-        <div class="reviews__item">
-          <figure class="reviews__figure">
-            <img class="reviews__img" src="image/user_1.png" alt="фотография пользователя">
-            <figcaption class="reviews__name">Макс Самойлов</figcaption>
-          </figure>
+        <div class="reviews__wrapper">
+          <div class="reviews__item">
+            <figure class="reviews__figure">
+              <img class="reviews__img" src="image/user_1.png" alt="фотография пользователя">
+              <figcaption class="reviews__name">Макс Самойлов</figcaption>
+            </figure>
 
-          <p class="reviews__text">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR
-            очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
+            <p class="reviews__text">Отмечали здесь день рождения с компанией друзей, все было очень круто! VR
+              очки это просто бомба, никогда еще я не был в таком полном игровом погружении. Сервис на высоте!</p>
+          </div>
+
+          <div class="reviews__item">
+            <figure class="reviews__figure">
+              <img class="reviews__img" src="image/user_2.png" alt="фотография пользователя">
+              <figcaption class="reviews__name">Оксана Григорьева</figcaption>
+            </figure>
+
+            <p class="reviews__text">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился
+              корпоратив!
+              У нас в городе больше нет подобных заведений</p>
+          </div>
+
+          <div class="reviews__item">
+            <figure class="reviews__figure">
+              <img class="reviews__img" src="image/user_3.png" alt="фотография пользователя">
+              <figcaption class="reviews__name">Никита Ященко</figcaption>
+            </figure>
+
+            <p class="reviews__text">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в
+              стиле
+              звездных войн, попал в атмосферу космоса</p>
+          </div>
+
         </div>
-
-        <div class="reviews__item">
-          <figure class="reviews__figure">
-            <img class="reviews__img" src="image/user_2.png" alt="фотография пользователя">
-            <figcaption class="reviews__name">Оксана Григорьева</figcaption>
-          </figure>
-
-          <p class="reviews__text">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив!
-            У нас в городе больше нет подобных заведений</p>
-        </div>
-
-        <div class="reviews__item">
-          <figure class="reviews__figure">
-            <img class="reviews__img" src="image/user_3.png" alt="фотография пользователя">
-            <figcaption class="reviews__name">Никита Ященко</figcaption>
-          </figure>
-
-          <p class="reviews__text">Немного подвисала игра в VR очках, а так все норм. Крутое оформление комнаты в стиле
-            звездных войн, попал в атмосферу космоса</p>
-        </div>
-
       </div>
     </section>
 
@@ -355,11 +371,11 @@
 
       <div class="footer__wrapper">
         <div class="footer__adress">
-          <p class="contacts__adres">г.Москва <br> ул.Аквамарина, 16</p>
-  
-          <a href="tel:89309502893" class="contacts__tel">8 (930) 950-28-93</a><br>
-          <a href="mailto:GameOver@gmail.com" class="contacts__mail">GameOver@gmail.com</a>
-  
+          <p class="contacts__adres contacts__text">г. Москва <br> ул. Усачёва, 29 к3</p>
+
+          <a class="contacts__tel contacts__text" href="tel:89309502893" >8 (930) 950-28-93</a>
+          <a class="contacts__mail contacts__text" href="mailto:GameOver@gmail.com" >GameOver@gmail.com</a>
+
           <ul class="social__link">
             <li class="social__link__item">
               <a href="https://vk.com/" target="_blank">
@@ -386,7 +402,7 @@
               </a>
             </li>
             <li class="social__link__item">
-              <a href="https://telegram.org/" target="_blank">
+              <a href="https://www.stumbleupon.com/" target="_blank">
                 <svg width="50" height="50" viewBox="0 0 50 50" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M44.7441 9.66919C48.1583 14.0494 50.0085 19.4463 49.9999 24.9999C49.9999 38.8051 38.805 49.9999 25.0006 49.9999C15.2871 49.9999 6.86597 44.4576 2.72751 36.3647H13.6237C18.816 36.3647 22.4429 33.566 22.4429 29.0923C22.4429 19.6108 11.5051 23.4737 11.5051 20.1089C11.5051 18.4878 12.8057 17.898 15.1858 17.898H22.7692C24.8711 17.898 27.3435 18.275 27.3435 20.5685V28.1243C27.3435 33.5955 31.6159 36.364 36.0441 36.364C40.548 36.364 44.7435 33.5955 44.7435 28.1243V9.66919H44.7441Z" />
@@ -398,17 +414,17 @@
           </ul>
         </div>
 
-          <img class="footer__map" src="image/map.jpg" alt="Карта">
+        <img class="footer__map" src="image/map.jpg" alt="Карта">
 
       </div>
-      
+
       <div class="footer__basement">
         <div class="basement__block">
-          <p class="basement__text" >&#169;  Game Over, 2022</p>
+          <p class="basement__text">&#169; Game Over, 2022</p>
         </div>
         <div class="basement__block_right">
-          <p class="basement__text" >Design by Anastasia Ilina</p>
-          <p class="basement__text" >ilina9825@gmail.com</p>
+          <p class="basement__text">Design by Anastasia Ilina</p>
+          <p class="basement__text">ilina9825@gmail.com</p>
         </div>
       </div>
     </div>

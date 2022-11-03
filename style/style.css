@@ -1,6 +1,7 @@
 html {
   position: relative;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -18,7 +19,8 @@ body {
 }
 
 
-img, svg {
+img,
+svg {
   max-width: 100%;
   max-height: 100%;
   height: auto;
@@ -68,16 +70,37 @@ iframe {
 /*
 Пример контейнера
 Если контейнер 1180px по макету,
-то для max-width прибавляем паддинги 30px*2, 
+то для max-width прибавляем паддинги 30px*2,
 в итоге 1240px
 Чтобы контент не прижимался к краям экрана
 */
 
 .container {
-  max-width: 1240px;
-  padding: 0 30px;
+  max-width: 1440px;
+  padding: 0 130px;
   margin: 0 auto;
 }
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+}
 
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 40px;
+    margin: 0 auto;
+  }
+}
 
+@media (max-width: 320px) {
+  .container {
+    max-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+}
