@@ -148,7 +148,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 580px) {
   .reviews {
     padding: 15px 0;
   }

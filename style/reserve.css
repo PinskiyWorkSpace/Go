@@ -177,7 +177,7 @@ input[type="checkbox"]:focus {
   outline: 1px solid var(--main-color);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1156px) {
   .reserve {
     padding: 60px 0;
   }
@@ -211,7 +211,14 @@ input[type="checkbox"]:focus {
     margin-right: 0;
   }
 }
+@media (max-width: 860px) {
+  .reserve__halls__item {
+    width: 160px;
+    height: 44px;
+    font-size: 16px;
+}
 
+}
 @media (max-width: 768px) {
   .reserve {
     padding: 50px 0;
@@ -250,10 +257,6 @@ input[type="checkbox"]:focus {
     line-height: 20px;
   }
 
-  .console__item {
-    width: 300px;
-  }
-
   input {
     width: 40px;
     height: 40px;
@@ -262,6 +265,7 @@ input[type="checkbox"]:focus {
 
   .booking__wrapper {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .booking__wrapper input {
@@ -282,8 +286,24 @@ input[type="checkbox"]:focus {
   }
 
 }
-
-@media (max-width: 320px) {
+@media (max-width: 660px) {
+  .reserve__halls {
+    flex-wrap: wrap;
+    gap: 20px 50px;
+    justify-content: center;
+  }
+  .block_one {
+      max-width: 300px;
+      flex-direction: column;
+  }
+  .reserve__halls__item {
+    width: 180px;
+  }
+  .reserve__btn {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 510px) {
   .reserve {
     padding: 30px 0;
   }

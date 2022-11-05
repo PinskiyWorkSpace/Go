@@ -69,6 +69,19 @@
     transform: translateY(70px);
 }
 
+@media (max-width: 1440px) {
+  .relaxation__item_audio,
+  .relaxation__item_netflix {
+      transform: translateY(0px);
+  }
+  .relaxation__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 60px;
+    justify-content: center;
+}
+}
+
 @media (max-width: 1024px) {
   .relaxation {
     padding: 20px 0 70px 0;
@@ -112,7 +125,28 @@
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 728px) {
+  .relaxation__item  {
+    width: 250px;
+    height: 160px;
+    font-size: 14px;
+  }
+  .relaxation__list {
+    gap: 10px;
+}
+}
+@media (max-width: 550px) {
+  .relaxation__list {
+    width: 100%;
+  }
+  .relaxation__item {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+  }
+}
+@media (max-width: 480px) {
   .relaxation {
     padding: 23px 0 15px 0;
   }

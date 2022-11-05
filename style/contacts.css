@@ -112,7 +112,7 @@
   align-items: flex-end
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1150px) {
   .contacts {
     padding: 29px 0 19px 0;
   }
@@ -143,7 +143,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 998px) {
   .contacts {
     padding: 35px 0 18px 0;
   }
@@ -194,7 +194,14 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 800px) {
+  .footer__map {
+    max-width: 450px;
+    max-height: 337px;
+}
+}
+
+@media (max-width: 480px) {
   .contacts {
     padding: 15px 0 24px 0;
   }

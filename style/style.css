@@ -81,6 +81,14 @@ iframe {
   margin: 0 auto;
 }
 
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+}
+
 @media (max-width: 1024px) {
   .container {
     max-width: 1024px;
@@ -92,7 +100,7 @@ iframe {
 @media (max-width: 768px) {
   .container {
     max-width: 768px;
-    padding: 0 40px;
+    padding: 0 20px;
     margin: 0 auto;
   }
 }
