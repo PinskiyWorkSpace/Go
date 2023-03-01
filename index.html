@@ -11,10 +11,30 @@
   <link rel="stylesheet" href="style/normalize.css">
   <link rel="stylesheet" href="style/index.css">
 
+  <script type="module" src="script/main.js"></script>
+
   <title>Go </title>
 </head>
 
 <body>
+  <div class="overlay">
+    <div class="modal">
+      <button class="modal__close"></button>
+
+      <h2 class="modal__title">Заказать звонок</h2>
+
+          <label class="modal__label">Имя
+            <input class="modal__input" type="text" name="name">
+          </label>
+
+          <label class="modal__label">Телефон
+            <input class="modal__input" type="text" name="phone">
+          </label>
+
+          <button class="modal__btn" type="submit">Позвонить мне</button>
+
+    </div>
+  </div>
 
   <header class="header">
     <div class="container">
@@ -31,7 +51,6 @@
             <path d="M120 0V1H69V0H120Z" fill="#CD06FF" />
           </svg>
         </a>
-
         <a class="menu__namburger">
           <span class="namburger__item"></span>
         </a>
@@ -47,8 +66,8 @@
         </nav>
 
         <button class="menu__btn">Заказать звонок</button>
-      </div>
 
+      </div>
     </div>
   </header>
 
@@ -71,7 +90,7 @@
           </div>
 
           <a class="promo__btn" href="#reserve">Забронировать</a>
-          <a class="arrow" href="#relaxation" >
+          <a class="arrow" href="#relaxation">
             <svg width="97" height="97" viewbox="0 0 97 97" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
               <rect x="34.4255" y="43.9162" width="1.82001" height="20.0201"
                 transform="rotate(-44.9975 34.4255 43.9162)" />
@@ -345,19 +364,59 @@
 
         <ul class="questions">
           <li class="question__item">
-            <h3 class="questions-h3">Можно ли забронировать комнату онлайн?</h3>
+            <div class="item__title-wrapper">
+              <h3 class="questions-h3">Можно ли забронировать комнату онлайн?</h3>
+            </div>
+            <div class="item__text-wrapper">
+              <p class="item__text">
+                Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать
+                комнату позвонив по телефону <b>8 (999) 958 - 48 - 38</b>
+              </p>
+            </div>
           </li>
           <li class="question__item">
-            <h3 class="questions-h3 ">Могут ли мне вернуть деньги за бронь?</h3>
+            <div class="item__title-wrapper">
+              <h3 class="questions-h3">Могут ли мне вернуть деньги за бронь?</h3>
+            </div>
+            <div class="item__text-wrapper">
+              <p class="item__text">
+                Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать
+                комнату позвонив по телефону <b>8 (999) 958 - 48 - 38</b>
+              </p>
+            </div>
           </li>
           <li class="question__item">
-            <h3 class="questions-h3">Какая комната самая популярная?</h3>
+            <div class="item__title-wrapper">
+              <h3 class="questions-h3">Какая комната самая популярная?</h3>
+            </div>
+            <div class="item__text-wrapper">
+              <p class="item__text">
+                Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать
+                комнату позвонив по телефону <b>8 (999) 958 - 48 - 38</b>
+              </p>
+            </div>
           </li>
           <li class="question__item">
-            <h3 class="questions-h3 ">Как получить VIP карту?</h3>
+            <div class="item__title-wrapper">
+              <h3 class="questions-h3">Как получить VIP карту?</h3>
+            </div>
+            <div class="item__text-wrapper">
+              <p class="item__text">
+                Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать
+                комнату позвонив по телефону <b>8 (999) 958 - 48 - 38</b>
+              </p>
+            </div>
           </li>
           <li class="question__item">
-            <h3 class="questions-h3">Какая комната самая популярная?</h3>
+            <div class="item__title-wrapper">
+              <h3 class="questions-h3">Какая комната самая популярная?</h3>
+            </div>
+            <div class="item__text-wrapper">
+              <p class="item__text">
+                Да, забронировать комнату вы можете онлайн, заполнив форму на нашем сайте. Также вы можете забронировать
+                комнату позвонив по телефону <b>8 (999) 958 - 48 - 38</b>
+              </p>
+            </div>
           </li>
         </ul>
       </div>
@@ -373,8 +432,8 @@
         <div class="footer__adress">
           <p class="contacts__adres contacts__text">г. Москва <br> ул. Усачёва, 29 к3</p>
 
-          <a class="contacts__tel contacts__text" href="tel:89309502893" >8 (930) 950-28-93</a>
-          <a class="contacts__mail contacts__text" href="mailto:GameOver@gmail.com" >GameOver@gmail.com</a>
+          <a class="contacts__tel contacts__text" href="tel:89309502893">8 (930) 950-28-93</a>
+          <a class="contacts__mail contacts__text" href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
 
           <ul class="social__link">
             <li class="social__link__item">
