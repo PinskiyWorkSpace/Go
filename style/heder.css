@@ -91,51 +91,52 @@
     order: 2;
   }
 
-  .menu__namburger {
+  .menu__hamburger {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   }
 
-  .namburger__item,
-  .namburger__item::before {
+  .hamburger__item,
+  .hamburger__item::before {
     width: 54px;
     height: 5px;
     background: #6C0287;
     border-radius: 2px;
   }
 
-  .namburger__item::after {
+  .hamburger__item::after {
     width: 31px;
     height: 5px;
     background: #6C0287;
     border-radius: 2px;
   }
 
-  .namburger__item::before,
-  .namburger__item::after {
+  .hamburger__item::before,
+  .hamburger__item::after {
     content: '';
     display: block;
     transition: 0.5s;
   }
 
-  .namburger__item::before {
+  .hamburger__item::before {
     transform: translateY(-13px);
   }
 
-  .namburger__item::after {
+  .hamburger__item::after {
     transform: translateY(7px);
   }
 
-  .namburger__item:hover {
+  .active {
     height: 0;
   }
 
-  .namburger__item:hover:before {
+  .active:before {
     transform: rotate(45deg);
   }
 
-  .namburger__item:hover:after {
+  .active:after {
     width: 54px;
     transform: rotate(-45deg);
     transform-origin: 22px;
@@ -150,33 +151,49 @@
     width: 66px;
   }
 
-  .namburger__item,
-  .namburger__item::before {
+  .hamburger__item,
+  .hamburger__item::before {
     width: 39px;
     height: 3px;
     background: #6C0287;
     border-radius: 2px;
   }
 
-  .namburger__item::after {
+  .hamburger__item::after {
     width: 22px;
     height: 3px;
     background: #6C0287;
     border-radius: 2px;
   }
 
-  .namburger__item::before {
+  .hamburger__item::before {
     transform: translateY(-8px);
   }
 
-  .namburger__item::after {
+  .hamburger__item::after {
     transform: translateY(5px);
   }
 
-  .namburger__item:hover:after {
+  .hamburger__item:hover:after {
     width: 39px;
-    transform-origin: 16px;
+    transform-origin: 18px;
   }
+
+  .active {
+    height: 0;
+  }
+
+  .active:before {
+    transform: rotate(45deg);
+  }
+
+  .active:after {
+    width: 39px;
+    transform: rotate(-45deg);
+    transform-origin: 18px;
+  }
+
+
 
   .menu__btn {
     display: none;
