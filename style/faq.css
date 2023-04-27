@@ -134,8 +134,16 @@
   }
 
   .question__item {
-    padding: 23px;
+    padding: 0px;
     margin-bottom: 16px;
+  }
+
+  .item__title-wrapper{
+    padding: 23px;
+  }
+
+  .question__item::after{
+    top: 12px;
   }
 
   .question__item:nth-child(even) {
@@ -181,7 +189,7 @@
   }
 
   .question__item {
-    padding: 23px 54px;
+    padding: 0px 30px;
   }
 
   .questions-h3 {

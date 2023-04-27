@@ -61,7 +61,16 @@
   line-height: 28px;
   color: #FFFFFF;
   margin-top: 52px;
+}
 
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #6C0287;
+}
+
+.swiper-button-next:hover:after,
+.swiper-button-prev:hover:after {
+  color: #CD06FF;
 }
 
 @media (max-width: 1024px) {
